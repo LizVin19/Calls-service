@@ -16,7 +16,9 @@ __pycache__/
 *.sqlite3
 
 # медиа-файлы
-media/
+media/*
+# кроме .gitkeep
+!media/.gitkeep
 
 # env файлы
 .env

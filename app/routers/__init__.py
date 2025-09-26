@@ -1,2 +1,1 @@
-from . import calls
-from . import recordings
+"""Роутеры API (calls, recordings и др.)."""
