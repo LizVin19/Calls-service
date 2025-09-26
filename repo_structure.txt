@@ -1,0 +1,76 @@
+.
+├── alembic
+│   ├── env.py
+│   ├── __pycache__
+│   │   └── env.cpython-312.pyc
+│   ├── README
+│   ├── script.py.mako
+│   └── versions
+│       ├── 45473ffe89a7_fix_transcription_type_to_text.py
+│       ├── 4a2af81be79b_create_calls_table.py
+│       ├── 6f3b48afb30e_create_recording_table.py
+│       ├── df4ed8cb5253_create_recordings_table.py
+│       └── __pycache__
+│           ├── 45473ffe89a7_fix_transcription_type_to_text.cpython-312.pyc
+│           ├── 4a2af81be79b_create_calls_table.cpython-312.pyc
+│           ├── 6f3b48afb30e_create_recording_table.cpython-312.pyc
+│           └── df4ed8cb5253_create_recordings_table.cpython-312.pyc
+├── alembic.ini
+├── app
+│   ├── config.py
+│   ├── db.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── config.cpython-312.pyc
+│   │   ├── db.cpython-312.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── main.cpython-312.pyc
+│   │   ├── models.cpython-312.pyc
+│   │   └── schemas.cpython-312.pyc
+│   ├── routers
+│   │   ├── calls.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── calls.cpython-312.pyc
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   └── recordings.cpython-312.pyc
+│   │   └── recordings.py
+│   ├── schemas.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   └── signing.cpython-312.pyc
+│   │   └── signing.py
+│   └── workers
+│       ├── celery_app.py
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── celery_app.cpython-312.pyc
+│       │   ├── __init__.cpython-312.pyc
+│       │   └── tasks.cpython-312.pyc
+│       └── tasks.py
+├── media
+│   └── recordings
+│       ├── 00e995307c3247568f082f2344497ef9.mp3
+│       ├── 02c201ab2eb3492e9dcf49e06849adfb.mp3
+│       ├── 1c79aa1dc1a74d569186439fc43b15e6.mp3
+│       ├── 2c59a5a968444efd8fca79d7fed21d99.mp3
+│       ├── 3dd2fddfde0741128887c703aa0a795a.mp3
+│       ├── 798b6fd8d2b44b4aa62d7d56ac02f2c4.mp3
+│       ├── 79b3e618af3d4d3ba0f5b8812d54f59b.mp3
+│       ├── 7d9675d1b15d440fa2fc24455843a3e2.mp3
+│       ├── 942ced87f35b419fa2ca307ac918fd1d.mp3
+│       ├── abd70e9cda9a4955b7357a96cd8f64c4.mp3
+│       ├── b9c2ca62c77443ad9e0538a1d287eac8.mp3
+│       ├── c017b31a5b4540a49eaa8feb1fa7f375.mp3
+│       ├── c16f41b5a7e5487c870af798be84e102.mp3
+│       ├── c3ab64c4940b4ab38e823ec04702ecc0.mp3
+│       ├── ddfd570652e94a1e959607acee6881a2.mp3
+│       └── edbad2094927468f80a50758c39f929c.mp3
+├── repo_structure.txt
+└── requirements.txt
+
+15 directories, 59 files
