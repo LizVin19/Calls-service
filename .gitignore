@@ -1,0 +1,26 @@
+# virtual envivorment
+.venv/
+env/
+venv/
+
+# pycache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# база данных и миграции
+*.db
+*.sqlite3
+
+# медиа-файлы
+media/
+
+# env файлы
+.env
+
+# celery/redis/postgres data
+*.pid
+*.log
